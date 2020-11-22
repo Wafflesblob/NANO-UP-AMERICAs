@@ -56,19 +56,19 @@ public class Health : MonoBehaviour
     {
         if (counter == 0)
         {
-            Destroy(green_1);
+            green_1.SetActive(false);
         }
         if (counter == 1)
         {
-            Destroy(green_2);
+            green_2.SetActive(false);
         }
         if (counter == 2)
         {
-            Destroy(green_3);
+            green_3.SetActive(false);
         }
         if (counter == 3)
         {
-            Destroy(green_4);
+            green_4.SetActive(false);
         }
         counter++;
     }
